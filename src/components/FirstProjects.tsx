@@ -24,7 +24,7 @@ export function FirstProjects() {
        "
         >
           <div className="flex flex-col md:flex-row px-0 ">
-            <Link href={""} target="blank" className=" 
+            <Link href={"https://app-shadcn-ui.vercel.app/"} target="blank" className=" 
              bg-slate-950 flex justify-center items-center "> 
 
               <Image
@@ -65,13 +65,13 @@ export function FirstProjects() {
                   className="flex border-4 rounded-xl  bg-slate-900
              gap-5 md:gap-4 items-center justify-center mb-2 px-2 py-2"
                 >
-                  <li className="hover:scale-105 transition-all  ">
-                    <Link href={""}>
+                  <li className="hover:scale-105 transition-all  " >
+                    <Link href={"https://www.typescriptlang.org/"} target="blank">
                       <Image src={"/icon/ts.png"} alt="" width={40} height={32} />
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://tailwindcss.com/"} target="blank">
                       <Image
                         src={"/icon/tailwind.png"}
                         alt=""
@@ -81,7 +81,7 @@ export function FirstProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all  ">
-                    <Link href={""}>
+                    <Link href={"https://ui.shadcn.com/"} target="blank">
                       <Image
                         src={"/icon/shadcn.png"}
                         alt=""
@@ -91,12 +91,12 @@ export function FirstProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all  ">
-                    <Link href={""}>
+                    <Link href={"https://react.dev/"} target="blank">
                       <Image src={"/icon/react.png"} alt="" width={40} height={32} />
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all  ">
-                    <Link href={""}>
+                    <Link href={"https://nextjs.org/"} target="blank">
                       <Image
                         src={"/icon/nextjs.png"}
                         alt=""

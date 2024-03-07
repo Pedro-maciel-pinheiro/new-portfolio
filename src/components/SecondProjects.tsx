@@ -63,7 +63,7 @@ export function SecondProjects() {
                   </Button>
                 </Link>
                 <Link
-                  href={"https://expo.dev/"}
+                  href={"https://expo.dev//accounts/pedromaciel/projects/food-app/builds/ddad611d-000e-4846-ad7e-737e4cbf9d81"}
                   className="border-2 rounded-md px-2 flex items-center
                    text-center animate-bounce  hover:text-green-500
                   delay-75"
@@ -80,7 +80,7 @@ export function SecondProjects() {
              gap-5 md:gap-6 items-center justify-center mt-4 mb-4 mx-4 "
                 >
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://www.typescriptlang.org/"} target="blank">
                       <Image
                         src={"/icon/ts.png"}
                         alt=""
@@ -90,7 +90,7 @@ export function SecondProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://tailwindcss.com/"} target="blank">
                       <Image
                         src={"/icon/tailwind.png"}
                         alt=""
@@ -100,7 +100,7 @@ export function SecondProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://react.dev/"} target="blank">
                       <Image
                         src={"/icon/react.png"}
                         alt=""
@@ -110,7 +110,7 @@ export function SecondProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://nextjs.org/"} target="blank">
                       <Image
                         src={"/icon/nextjs.png"}
                         alt=""
@@ -120,7 +120,7 @@ export function SecondProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
-                    <Link href={""}>
+                    <Link href={"https://account.mongodb.com/account/login"} target="blank">
                       <Image
                         src={"/icon/mongodb.svg"}
                         alt=""
@@ -130,7 +130,7 @@ export function SecondProjects() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all " id="bottom">
-                    <Link href={""}>
+                    <Link href={"https://next-auth.js.org/getting-started/example"} target="blank">
                       <Image
                         src={"/icon/auth.png"}
                         alt=""
