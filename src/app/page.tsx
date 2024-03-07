@@ -2,7 +2,7 @@ import { Hero } from "@/app/Home/Hero";
 import { FirstProjects } from "../components/FirstProjects";
 import StarsCanvas from "@/components/StarBackground";
 import { SecondProjects } from "@/components/SecondProjects";
-import Skills from "@/components/Skills/Skills";
+import Skills from "@/components/skills/Skills";
 import { Info } from "@/app/Home/info";
 
 export default function Home() {

@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Skill_data } from "@/components/Skills/index";
-import SkillDataProvider from "@/components/Skills/SkillDataProvider";
+import { Skill_data } from "@/components/skills/index";
+import SkillDataProvider from "@/components/skills/SkillDataProvider";
 
 const Skills = () => {
   return (
