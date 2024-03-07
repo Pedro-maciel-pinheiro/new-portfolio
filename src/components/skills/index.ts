@@ -62,7 +62,7 @@ export const Skill_data = [
     },
     {
       skill_name: "reactquery",
-      Image: "/reactquery.png",
+      Image: "/icon/reactquery.png",
       width: 60,
       height: 60,
     },
