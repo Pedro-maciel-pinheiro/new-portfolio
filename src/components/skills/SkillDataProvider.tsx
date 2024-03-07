@@ -33,12 +33,13 @@ const SkillDataProvider = ({ src, width, height, index ,skill_name}: Props) => {
       custom={index}
       transition={{ delay: index * animationDelay }}
     >
-      <div className="text-white gap-2
+
+      <div className="text-white 
        flex flex-col items-center justify-center
      
       "> 
         <Image src={src} width={width} height={height} alt="skill image" />
-        {skill_name}
+        <div className="hidden md:block">{skill_name}</div>
       </div>
     </motion.div>
   );

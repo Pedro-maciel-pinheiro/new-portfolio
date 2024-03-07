@@ -16,36 +16,41 @@ export function FirstProjects() {
       </div>
       <div
         className=" text-white text-center  
-    flex items-center justify-center  "
+    flex items-center justify-center container "
       >
         <div
           className="border-4 border-x-white rounded-xl shadow-xl
-      shadow-black/60
+      shadow-black/60 max-w-72 md:max-w-4xl 
        "
         >
-          <div className="flex flex-col lg:flex-row  container  gap-0 px-0 ">
-            <Link href={""} target="blank" className=" bg-slate-950 flex justify-center items-center "> 
+          <div className="flex flex-col md:flex-row px-0 ">
+            <Link href={""} target="blank" className=" 
+             bg-slate-950 flex justify-center items-center "> 
+
               <Image
-                className=" mx-auto max-w-96 sm:max-w-xl md:max-w-2xl relative z-10
+                className=" mx-auto 
+                rounded-lg
+                md:max-w-xl relative z-10 object-cover
                 "
                 src={"/shade.png"}
-                width={1200}
+                width={600}
                 height={400}
+                
                 alt="none"
               />
              </Link> 
             <div
-              className="text-xl bg-slate-950
-           text-white italic  flex flex-col gap-6 items-center justify-center border    "
+              className="text-xl bg-slate-950 container
+           text-white italic  flex flex-col gap-6 items-center justify-center "
             >
-              <p className="mt-8 mx-3 font-semibold ">
+              <p className="mt-8 mx-3 font-semibold  text-sm  ">
                 A modern website made with shadcn/ui .. each page using some
                 shadcn/ui component to enhance or just to improve the user
                 experience completely responsive for all screens
               </p>
-              <Link href={"https://app-shadcn-ui.vercel.app/"} target="blank">
+              <Link  href={"https://app-shadcn-ui.vercel.app/"} target="blank">
                 <Button
-                  className="active:translate-y-1 border-2 bg-slate-950
+                  className="active:translate-y-1 border-2 bg-slate-800
              border-white relative z-10 w-36 animate-bounce"
                 >
                   Visit site
@@ -58,7 +63,7 @@ export function FirstProjects() {
                 </h1>
                 <ul
                   className="flex border-4 rounded-xl p-2 bg-slate-900
-             gap-8 items-center justify-center mt-4 mb-4"
+             gap-5 md:gap-8 items-center justify-center mt-4 mb-4"
                 >
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={""}>
