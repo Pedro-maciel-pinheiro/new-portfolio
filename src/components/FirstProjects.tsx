@@ -67,13 +67,13 @@ export function FirstProjects() {
                 >
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={""}>
-                      <Image src={"/ts.png"} alt="" width={40} height={32} />
+                      <Image src={"/icon/ts.png"} alt="" width={40} height={32} />
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all ">
                     <Link href={""}>
                       <Image
-                        src={"/tailwind.png"}
+                        src={"/icon/tailwind.png"}
                         alt=""
                         width={40}
                         height={36}
@@ -83,7 +83,7 @@ export function FirstProjects() {
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={""}>
                       <Image
-                        src={"/shadcn.png"}
+                        src={"/icon/shadcn.png"}
                         alt=""
                         width={40}
                         height={32}
@@ -92,13 +92,13 @@ export function FirstProjects() {
                   </li>
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={""}>
-                      <Image src={"/react.png"} alt="" width={40} height={32} />
+                      <Image src={"/icon/react.png"} alt="" width={40} height={32} />
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={""}>
                       <Image
-                        src={"/nextjs.png"}
+                        src={"/icon/nextjs.png"}
                         alt=""
                         width={40}
                         height={32}

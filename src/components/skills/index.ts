@@ -1,13 +1,13 @@
 export const Skill_data = [
     {
       skill_name: "React",
-      Image: "/react.png",
+      Image: "/icon/react.png",
       width: 60,
       height: 60,
     },
     {
       skill_name: "next",
-      Image: "/nextjs.png",
+      Image: "/icon/nextjs.png",
       width: 60,
       height: 60,
       
@@ -15,34 +15,34 @@ export const Skill_data = [
     {
       
       skill_name: "Java Script",
-      Image: "/js.png",
+      Image: "/icon/js.png",
       width: 55,
       height: 50,
     },
     {
       skill_name: "Type Script",
-      Image: "/ts.png",
+      Image: "/icon/ts.png",
       width: 55,
       height: 55,
       idname:"Type Script",
     },
     {
       skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      Image: "/icon/tailwind.png",
       width: 60,
       height: 60,
       
     },
     {
       skill_name: "Github",
-      Image: "/gitwhite.png",
+      Image: "/icon/gitwhite.png",
       width: 55,
       height: 55,
       
     },
     {
       skill_name: "Shade-ui",
-      Image: "/shadcn.png",
+      Image: "/icon/shadcn.png",
       width: 55,
       height: 55,
     },
@@ -50,13 +50,13 @@ export const Skill_data = [
     
     {
       skill_name: "Next-Auth",
-      Image: "/auth.png",
+      Image: "/icon/auth.png",
       width: 55,
       height: 60,
     },
     {
       skill_name: "ReactNative",
-      Image: "/ReactNative .png",
+      Image: "/icon/ReactNative .png",
       width: 60,
       height: 55,
     },
@@ -68,14 +68,14 @@ export const Skill_data = [
     },
     {
       skill_name: "angula",
-      Image: "/angula.png",
+      Image: "/icon/angula.png",
       width: 60,
       height: 55,
       
     },
     {
       skill_name: "figma",
-      Image: "/figma.png",
+      Image: "/icon/figma.png",
       width: 45,
       height: 50,
     },
