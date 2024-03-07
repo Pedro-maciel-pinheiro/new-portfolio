@@ -34,11 +34,12 @@ const SkillDataProvider = ({ src, width, height, index ,skill_name}: Props) => {
       transition={{ delay: index * animationDelay }}
     >
 
-      <div className="text-white 
+      <div className="text-white relative z-20 transform duration-200 hover:-translate-y-1
+       
        flex flex-col items-center justify-center
      
       "> 
-        <Image src={src} width={width} height={height} alt="skill image" />
+        <Image src={src} width={width} height={height} alt="skill image" className="rounded-lg" />
         <div className="hidden md:block">{skill_name}</div>
       </div>
     </motion.div>

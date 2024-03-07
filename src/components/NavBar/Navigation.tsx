@@ -26,20 +26,21 @@ export function Navigation() {
       <div className="absolute z-40">
         <ShadeMenu />
       </div>
-      <nav className="fixed w-screen px-4 top-2 z-30 hidden sm:block ">
+      <nav className="fixed w-screen px-4 top-2 z-30 hidden md:block ">
         <div className="py-3 container flex items-center justify-between
-         bg-background rounded-md z-50 bg-slate-950 border-2 border-white">
+         rounded-md z-50 bg-transparent border-2 border-white">
           <div className="absolute left-0 ml-5"></div>
           <p className="font-semibold italic text-2xl text-white">Pedro Maciel</p>
-          <ul className="flex items-center gap-4 text-white">
+          <ul className="flex items-center  gap-4 text-white border-2 px-16 py-1 rounded-full
+          bg-slate-800">
             {navList.map((nav) => {
               return (
                 <li
                   className="text-muted-foreground 
-              hover:text-primary hover:underline"
+              hover:text-primary hover:underline active:translate-y-1"
                   key={nav.title}
                 >
-                  <Link className="text-white" href={nav.href}>{nav.title}</Link>
+                  <Link className="text-white " href={nav.href}>{nav.title}</Link>
                   
                 </li>
               );

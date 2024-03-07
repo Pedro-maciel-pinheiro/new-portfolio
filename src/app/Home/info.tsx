@@ -11,7 +11,7 @@ export function Info() {
           className="text-white max-w-72 md:max-w-4xl 
         text-sm md:text-xl"
         >
-          Greetings! I&apos;m Pedro a freelance developer.. Throughout my
+          Greetings! I&apos;m a freelance developer.. Throughout my
           journey, I&apos;ve had the pleasure of collaborating with exceptional
           individuals and working remotely. My expertise lies in developing 
           mobile apps and websites.

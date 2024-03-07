@@ -6,7 +6,7 @@ export const Skill_data = [
       height: 60,
     },
     {
-      skill_name: "next",
+      skill_name: "Next",
       Image: "/icon/nextjs.png",
       width: 60,
       height: 60,
@@ -61,20 +61,20 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "reactquery",
+      skill_name: "ReactQuery",
       Image: "/icon/reactquery.png",
       width: 60,
       height: 60,
     },
     {
-      skill_name: "angula",
+      skill_name: "Angula",
       Image: "/icon/angula.png",
       width: 60,
       height: 55,
       
     },
     {
-      skill_name: "figma",
+      skill_name: "Figma",
       Image: "/icon/figma.png",
       width: 45,
       height: 50,

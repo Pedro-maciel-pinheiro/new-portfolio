@@ -129,7 +129,7 @@ export function SecondProjects() {
                       />
                     </Link>
                   </li>
-                  <li className="hover:scale-105 transition-all ">
+                  <li className="hover:scale-105 transition-all " id="bottom">
                     <Link href={""}>
                       <Image
                         src={"/icon/auth.png"}

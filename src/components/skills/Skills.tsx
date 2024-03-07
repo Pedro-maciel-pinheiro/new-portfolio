@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Skill_data } from "@/components/skills/index";
-import SkillDataProvider from "@/components/skills/SkillDataProvider";
+import { Skill_data } from "@/components/Skills/index";
+import SkillDataProvider from "@/components/Skills/SkillDataProvider";
 
 const Skills = () => {
   return (
@@ -13,13 +13,13 @@ const Skills = () => {
          Proficient in developing websites, web applications, mobile
         applications</p>
       </div>
-      <ul className="skills-icons container" id="Skill">
-        <h3 className="text-white text-center text-xl
-         md:text-2xl">My skills</h3>
+      <ul className="skills-icons container" id="Skill" >
+        <h3 className="text-white text-center text-xl 
+         md:text-2xl" >My skills</h3>
         <li
-          className="grid grid-cols-6 gap-3 sm:grid-cols-6  max-w-5xl
-          lg:gap-8 py-8  justify-center items-center  mx-auto
-          px-8  text-center "
+          className="grid grid-cols-6 gap-3 sm:grid-cols-6  max-w-5xl 
+          lg:gap-8 py-8  justify-center items-center  mx-auto 
+          px-8  text-center " id="mid"
         >
           {Skill_data.map((image, index) => (
             <SkillDataProvider
