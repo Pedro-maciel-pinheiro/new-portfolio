@@ -28,9 +28,9 @@ export function Navigation() {
       </div>
       <nav className="fixed w-screen px-4 top-2 z-30 hidden md:block ">
         <div className="py-3 container flex items-center justify-between
-         rounded-md z-50 bg-transparent border-2 border-white">
+         rounded-md z-50  border-4 border-white  backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-100/10 bg-white/5 supports-backdrop-blur:bg-white/80 ">
           <div className="absolute left-0 ml-5"></div>
-          <p className="font-semibold italic text-2xl text-white">Pedro Maciel</p>
+          <p className="font-semibold text-2xl text-white">Pedro Maciel</p>
           <ul className="flex items-center  gap-4 text-white border-2 px-16 py-1 rounded-full
           bg-slate-800">
             {navList.map((nav) => {

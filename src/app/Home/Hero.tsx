@@ -16,25 +16,27 @@ export function Hero() {
              "
           >
             <div className="mt-36 md:mt-0">
-              <p className="text-white text-2xl font-semibold">
+              <p className="text-white text-3xl font-semibold">
                 Welcome To My Space
               </p>
               <h1
                 className="text-sm
 
-            sm:text-2xl lg:text-xl font-bold  text-white"
+            sm:text-2xl lg:text-3xl font-bold  text-white"
               >
                 My name is Pedro..
                 <p
                   className="
-              bg-gradient-to-r from-purple-500 to-cyan-500   bg-clip-text text-transparent
+              bg-gradient-to-r from-purple-500 to-cyan-500 
+                bg-clip-text text-transparent mt-8
               "
                 >
                   I&apos;m a Front-end Devoloper
                 </p>
               </h1>
-              <p className="text-slate-100  hidden lg:block ">
-                experiences for the web transforming ideas into digital reality
+              <p className="text-slate-100  hidden lg:block mt-1 text-lg">
+              building  experiences for the web <br />
+              transforming ideas into digital reality
                 
               </p>
             </div>
