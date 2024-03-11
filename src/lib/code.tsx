@@ -59,14 +59,14 @@ export function CodeText() {
           <span className="text-blue-300">{"["}</span>
           <span className="flex flex-wrap text-white">
             <p>
-            &apos;React&apos;, &apos;next&apos;, &apos;JavaScript&apos;, &apos;TypeScript&apos;, &apos;Tailwind-Css&apos;,{" "}
+            &apos;React&apos;, &apos;Next&apos;, &apos;JavaScript&apos;, &apos;TypeScript&apos;, &apos;Tailwind-Css&apos;,{" "}
             </p>
             <p>
               {" "}
               &apos;Github&apos;, &apos;Shadcn/ui&apos;, &apos;Next-Auth&apos;, &apos;ReactNative&apos;, &apos;ReactQuery&apos;,
              
             </p>
-            <p>&apos;angula&apos;, &apos;figma&apos;,  &apos;Headless ui&apos;,</p>
+            <p>&apos;Angular&apos;, &apos;Figma&apos;,  &apos;Headless ui&apos;,</p>
             <span className="text-blue-300">{"]"}</span>
             <span className="text-white">{"}"}</span>
           </span>
