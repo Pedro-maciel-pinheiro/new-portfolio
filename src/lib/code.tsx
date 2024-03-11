@@ -37,7 +37,7 @@ export function CodeText() {
           <span className="text-pink-500">return</span>
           <span className="text-blue-300">{"["}</span>
           <span className="flex flex-col text-white">
-            <span>{" {2023-now - Web devoloper freelancer}"}</span>
+            <span>{" {2023-now - Web developer freelancer}"}</span>
             <span>{"{2017-2022 - Hardware Technician} "}</span>
 
             <span className="flex">
@@ -59,13 +59,14 @@ export function CodeText() {
           <span className="text-blue-300">{"["}</span>
           <span className="flex flex-wrap text-white">
             <p>
-            &apos;React&apos;, &apos;next&apos;, &apos;Java Script&apos;, &apos;Type Script&apos;, &apos;Tailwind Css&apos;,{" "}
+            &apos;React&apos;, &apos;next&apos;, &apos;JavaScript&apos;, &apos;TypeScript&apos;, &apos;Tailwind-Css&apos;,{" "}
             </p>
             <p>
               {" "}
-              &apos;Github&apos;, &apos;Shade-ui&apos;, &apos;Next-Auth&apos;, &apos;ReactNative&apos;, &apos;reactquery&apos;,
+              &apos;Github&apos;, &apos;Shadcn/ui&apos;, &apos;Next-Auth&apos;, &apos;ReactNative&apos;, &apos;ReactQuery&apos;,
+             
             </p>
-            <p>&apos;angula&apos;, &apos;figma&apos;,</p>
+            <p>&apos;angula&apos;, &apos;figma&apos;,  &apos;Headless ui&apos;,</p>
             <span className="text-blue-300">{"]"}</span>
             <span className="text-white">{"}"}</span>
           </span>

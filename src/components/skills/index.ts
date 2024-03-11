@@ -41,7 +41,7 @@ export const Skill_data = [
       
     },
     {
-      skill_name: "Shade-ui",
+      skill_name: "Shadcn/ui",
       Image: "/icon/shadcn.png",
       width: 55,
       height: 55,
@@ -67,16 +67,16 @@ export const Skill_data = [
       height: 60,
     },
     {
-      skill_name: "Angula",
+      skill_name: "Angular",
       Image: "/icon/angula.png",
       width: 60,
       height: 55,
       
     },
     {
-      skill_name: "Figma",
-      Image: "/icon/figma.png",
-      width: 45,
+      skill_name: "Headless ui",
+      Image: "/icon/headlessui.svg",
+      width: 60,
       height: 50,
     },
 ]

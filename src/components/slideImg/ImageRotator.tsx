@@ -23,7 +23,8 @@ const ImageRotator: React.FC<ImageRotatorProps> = ({ images, interval }) => {
 
   return (
     <div>
-        <Image className='max-w-xl  transition-all '  width={1400} height={1400} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
+        <Image className='max-w-xl  transition-all ' 
+         width={1400} height={1400} src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
     </div>
   )
 };

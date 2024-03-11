@@ -1,44 +1,44 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import SlideSegund from "./slideImg/slide-2";
+import SlideThird from "./slideImg/slide-3";
 
-
-export function FirstProjects() {
+export function CarRentProject() {
   return (
     <>
       <div id="Projects">
         <h2
           className="text-white text-center text-3xl font-semibold
-         mb-0"
+         mb-0 mt-4"
         >
-          Shadcn page
+         Car-Rent
         </h2>
       </div>
       <div
         className=" text-white text-center  
-    flex items-center justify-center container "
+    flex items-center justify-center container mb-12 "
       >
         <div
           className="border-2 border-x-white rounded-sm shadow-xl
       shadow-black/60 max-w-72 md:max-w-4xl 
        "
         >
-          <div className="flex flex-col  md:flex-row   px-0  max-w-72 sm:max-w-xl md:max-w-6xl">
-            <Link href={"https://app-shadcn-ui.vercel.app/"} target="blank" className=" 
-             bg-slate-950 flex justify-center items-center overflow-hidden sm:overflow-visible relative z-20"> 
-             <SlideSegund/>
+          <div className="flex flex-col  md:flex-row   px-0  max-w-72 sm:max-w-xl md:max-w-6xl ">
+            <Link href={"https://car-rent-shop-next.vercel.app/"} target="blank" className=" relative z-20
+             bg-slate-950 flex justify-center items-center overflow-hidden sm:overflow-visible"> 
+              <SlideThird/>
              </Link> 
             <div
               className="text-xl bg-slate-950 
            text-white   flex flex-col gap-6 px-4 "
             >
               <p className=" font-semibold  text-left text-sm mt-2 ">
-                A modern website made with shadcn/ui .. each page using some
-                shadcn/ui component to enhance or just to improve the user
-                experience completely responsive for all screens
+              Dynamic and efficient Rent-a-Car website developed using Next.js
+               for seamless page routing and with API integration. 
+               Employs a modular with many informations about the car
+
               </p>
-              <Link  href={"https://app-shadcn-ui.vercel.app/"} target="blank">
+              <Link  href={"https://car-rent-shop-next.vercel.app/"} className="" target="blank">
                 <Button
                   className="active:translate-y-1 border-2 bg-slate-800
              border-white relative z-10  animate-pulse w-20"
@@ -73,10 +73,11 @@ export function FirstProjects() {
                   <li className="hover:scale-105 transition-all  ">
                     <Link href={"https://ui.shadcn.com/"} target="blank">
                       <Image
-                        src={"/icon/shadcn.png"}
+                        src={"/icon/headlessui.svg"}
                         alt=""
                         width={40}
                         height={32}
+                        
                       />
                     </Link>
                   </li>

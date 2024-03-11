@@ -4,7 +4,8 @@ import StarsCanvas from "@/components/StarBackground";
 import { SecondProjects } from "@/components/SecondProjects";
 import Skills from "@/components/skills/Skills";
 import { Info } from "@/app/Home/info";
-import SlideImg from "@/components/slideImg/slide";
+import SlideImg from "@/components/slideImg/slide-1";
+import { CarRentProject } from "@/components/CarRentProject";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <h1 className="text-white text-2xl md:text-4xl flex justify-center items-center mb-2 font-semibold">
             Recent Works
           </h1>
+          <CarRentProject/>
           <FirstProjects />
           <SecondProjects />
         </div>

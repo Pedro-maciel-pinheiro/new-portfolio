@@ -1,12 +1,17 @@
 import React from 'react';
 import ImageRotator from './ImageRotator';
 
-const SlideP: React.FC = () => {
+
+
+
+const SlideImg: React.FC = () => {
   const imageUrls = [
-    '/home-1.png',
-    '/home-2.png',
-    '/home-3.png',
+    '/food-1.png',
+    '/food-2.png',
+    '/food-3.png',
   ];
+
+  
 
   return (
     <div className='relative'>
@@ -17,4 +22,4 @@ const SlideP: React.FC = () => {
   );
 };
 
-export default SlideP;
+export default SlideImg;

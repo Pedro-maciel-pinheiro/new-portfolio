@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowBigRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import SlideImg from "./slideImg/slide";
+import SlideImg from "./slideImg/slide-1";
 
 export function SecondProjects() {
   return (
@@ -38,17 +38,16 @@ export function SecondProjects() {
            
 
             <div
-              className="text-xl bg-slate-950 max-w-72 md:max-w-sm
+              className="text-xl bg-slate-950 max-w-72 md:max-w-80 mb-1 
            text-white  flex flex-col gap-4 
-           items-center justify-center border "
+           items-center justify-center "
             >
               <p className="mt-1 mx-3 text-sm font-semibold text-left ">
                 Responsive food restaurant website, seamlessly integrated with
-                nextAuth and MongoDB for secure and efficient login. Elevate
-                your dining adventure by logging in with Google for a fully
-                immersive and convenient experience.
+                nextAuth and MongoDB for secure and efficient login. logging in with Google for a fully
+                experience.
               </p>
-              <div className="flex gap-4 relative z-10 text-sm mx-4">
+              <div className="flex gap-4 relative z-20 text-sm mx-4">
                 <Link
                   href={"https://food-app-web-nextjs.vercel.app/"}
                   target="blank"
@@ -63,7 +62,7 @@ export function SecondProjects() {
                 <Link
                   href={
                     "https://expo.dev//accounts/pedromaciel/projects/food-app/builds/ddad611d-000e-4846-ad7e-737e4cbf9d81"
-                  }
+                  } target="blank"
                   className="border-2 rounded-md px-2 flex items-center
                    text-center animate-pulse  hover:text-green-500
                   delay-75"
@@ -71,13 +70,13 @@ export function SecondProjects() {
                   Download App
                 </Link>
               </div>
-              <div className=" rounded-xl relative z-10 w-72 md:w-96">
-                <h1 className="text-white  font-semibold text-lg">
+              <div className=" rounded-xl relative z-10 w-72 md:w-80">
+                <h1 className="text-white  font-semibold text-lg md:mt-6">
                   Tools I use on this project
                 </h1>
                 <ul
-                  className="flex border-4 rounded-xl p-2 bg-slate-900
-             gap-5 md:gap-6 items-center justify-center mb-1 mx-4 "
+                  className="flex border-4 rounded-xl p-1 bg-slate-900
+             gap-4 md:gap-4 items-center justify-center mb-1 mx-4 "
                 >
                   <li className="hover:scale-105 transition-all ">
                     <Link
