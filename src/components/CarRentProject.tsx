@@ -33,7 +33,7 @@ export function CarRentProject() {
            text-white   flex flex-col gap-6 px-4 "
             >
               <p className=" font-semibold  text-left text-sm mt-2 ">
-              Dynamic and efficient Rent-car website developed using Next.js
+               Dynamic and efficient Rent-car website developed using Next.js
                for seamless page routing and with API integration. 
                Employs a modular with many informations about the car
 
@@ -71,7 +71,7 @@ export function CarRentProject() {
                     </Link>
                   </li>
                   <li className="hover:scale-105 transition-all  ">
-                    <Link href={"https://ui.shadcn.com/"} target="blank">
+                    <Link href={"https://headlessui.com/"} target="blank">
                       <Image
                         src={"/icon/headlessui.svg"}
                         alt=""
