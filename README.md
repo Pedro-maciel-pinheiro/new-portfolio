@@ -5,13 +5,21 @@ About Me
 I am a passionate and dedicated Front End Developer with a strong focus on creating dynamic and user-friendly web applications. 
 
 Skills and Technologies
+
 Next.js: Building server-side rendered React applications with enhanced performance and SEO.
+
 React: Developing component-based UIs for efficient and maintainable web applications.
+
 Tailwind CSS: Styling with a utility-first CSS framework to create custom designs quickly.
+
 React Native: Creating cross-platform mobile applications with React.
+
 Framer Motion: Implementing smooth animations and transitions in React applications.
+
 Shadcn UI: Utilizing a UI library for creating accessible and customizable UI components.
+
 Angular: Developing robust single-page applications with a powerful framework.
+
 Figma: Designing and prototyping user interfaces with a collaborative design tool.
 
 Projects
