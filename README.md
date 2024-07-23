@@ -1,26 +1,26 @@
-Pedro Maciel Pinheiro - Front End Developer
+<strong>Pedro Maciel Pinheiro<strong/> - Front End Developer
 Welcome to my portfolio repository!
 
 About Me
 I am a passionate and dedicated Front End Developer with a strong focus on creating dynamic and user-friendly web applications. 
 
-Skills and Technologies
+Skills and Technologies 
 
-Next.js: Building server-side rendered React applications with enhanced performance and SEO.
+Next.js: 
 
-React: Developing component-based UIs for efficient and maintainable web applications.
+React: 
 
-Tailwind CSS: Styling with a utility-first CSS framework to create custom designs quickly.
+Tailwind CSS:
 
-React Native: Creating cross-platform mobile applications with React.
+React Native: 
 
-Framer Motion: Implementing smooth animations and transitions in React applications.
+Framer Motion: 
 
-Shadcn UI: Utilizing a UI library for creating accessible and customizable UI components.
+Shadcn UI: 
 
-Angular: Developing robust single-page applications with a powerful framework.
+Angular: 
 
-Figma: Designing and prototyping user interfaces with a collaborative design tool.
+Figma: 
 
 Projects
 
