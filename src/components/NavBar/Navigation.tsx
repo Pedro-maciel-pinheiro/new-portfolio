@@ -4,6 +4,8 @@ import Link from "next/link";
 import { MobileNavbar } from "./MobileNavbar";
 import { GithubIcon, LinkedinIcon, PhoneCallIcon } from "lucide-react";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { slideInFromBottom, slideInFromTop } from "@/utils/motion";
 
 const navList = [
   {
@@ -46,20 +48,27 @@ export function Navigation() {
       <div className="absolute z-40">
         <MobileNavbar />
       </div>
-      <nav className="fixed w-screen px-4 top-2 z-40 hidden md:block ">
+      <motion.nav
+        initial="hidden"
+        animate="visible"
+        variants={slideInFromTop(0.2)}
+        className="fixed w-screen px-4 top-2 z-40 hidden md:block "
+      >
         <div
           className={`  max-w-7xl flex items-center justify-between mx-auto
              border-white  backdrop-blur transition-all
-          duration-700 z-50  border-white/40 ${navScroll ? "py-3 border-2 rounded-md " : "border-b-2"}`}
+          duration-700 z-50  border-white/40 ${
+            navScroll ? "py-3 border-2 rounded-md " : "border-b-2"
+          }`}
         >
           <p className="font-semibold text-2xl text-white mx-2">Pedro Maciel</p>
           <div
             className={`flex items-center  gap-4 text-white  px-16 py-1 rounded-full transition-all duration-500
-           ${navScroll? "bg-slate-800 border-2":"bg-transparent"}`}
+           ${navScroll ? "bg-slate-800 border-2" : "bg-transparent"}`}
           >
             {navList.map((nav) => {
               return (
-                <div 
+                <div
                   className="text-muted-foreground 
               hover:text-primary hover:underline active:translate-y-1"
                   key={nav.title}
@@ -96,7 +105,7 @@ export function Navigation() {
             </Link>
           </div>
         </div>
-      </nav>
+      </motion.nav>
     </>
   );
 }
