@@ -1,8 +1,17 @@
+"use client";
+import { useInViewHook, useInViewHookSlow } from "@/hooks/inView";
 import { CodeText } from "@/lib/code";
+import { fadeIn, slideInFromBottom } from "@/utils/motion";
+import { motion } from "framer-motion";
 
 export function Info() {
+  const { ref, inView } = useInViewHookSlow();
   return (
-    <section
+    <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={fadeIn(0.5)}
       className="flex flex-col  h-48 md:h-96 
       justify-center items-center gap-4 relative"
     >
@@ -24,12 +33,13 @@ export function Info() {
         </p>
       </div>
 
-      <div
+      <motion.div
+        variants={slideInFromBottom(1)}
         className="w-[300px]   
            md:w-[900px] h-[300px] md:h-[500px] mx-auto relative z-10"
       >
         <CodeText />
-      </div>
-    </section>
+      </motion.div>
+    </motion.section>
   );
 }

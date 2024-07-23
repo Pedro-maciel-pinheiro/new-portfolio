@@ -15,7 +15,7 @@ export const useInViewHook = () => {
 export const useInViewHookSlow = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.5,
+    threshold: 1,
   });
 
   return { ref, inView };

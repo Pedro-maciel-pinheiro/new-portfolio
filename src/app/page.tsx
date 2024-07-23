@@ -11,8 +11,12 @@ export default function Home() {
   return (
     <>
       <main className="bg-slate-950 ">
-        <Hero />
-        <Info />
+        <div className="h-full ">
+          <Hero />
+        </div>
+        <div className="">
+          <Info />
+        </div>
         <Skills />
 
         <div
