@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="container h-96 w-96  bg-slate-950
+    <footer className="container h-96 w-96  bg-slate-950 
      flex items-center justify-center">
       <div className="flex  flex-col gap-6 mt-8 relative z-10 ">
         <p className="text-2xl font-semibold mb-2 mx-auto text-white">Contacts</p>
@@ -30,7 +30,7 @@ export function Footer() {
             <PhoneCallIcon size={30} />
           </Link>
         </div>
-        <p className="text-white">Joao pedro maciel pinheiro</p>
+        <p className="text-white">João pedro maciel pinheiro</p>
       </div>
     </footer>
   );

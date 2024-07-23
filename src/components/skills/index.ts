@@ -49,8 +49,8 @@ export const Skill_data = [
    
     
     {
-      skill_name: "Next-Auth",
-      Image: "/icon/auth.png",
+      skill_name: "Framer-motion",
+      Image: "/icon/framer-motion.svg",
       width: 55,
       height: 60,
     },
