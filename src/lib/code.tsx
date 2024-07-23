@@ -37,7 +37,7 @@ export function CodeText() {
           <span className="text-pink-500">return</span>
           <span className="text-blue-300">{"["}</span>
           <span className="flex flex-col text-white">
-            <span>{" {2022-now - Front-end developer freelancer}"}</span>
+            <span>{" {2022-Now - Front-end developer freelancer}"}</span>
             <span>{"{2017-2022 - Hardware Technician} "}</span>
 
             <span className="flex">

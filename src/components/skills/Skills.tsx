@@ -7,15 +7,14 @@ const Skills = () => {
   return (
     <section className="flex flex-col  justify-center items-center  ">
       <div className="text-white text-xl w-72 md:w-full ">
-        <div className="text-center text-2xl
-         mt-32 md:mt-64 mb-4 ">What I do?</div>
-         <p className="mb-16 text-center"> 
-         Proficient in developing websites, web applications, mobile
-        applications</p>
+        <div className="text-start text-2xl md:text-center md:text-4xl 
+         mt-40 md:mt-56 mb-4 textGlow-white font-semibold">About Me </div>
+         <p className="mb-8 w-full max-w-3xl mx-auto text-sm md:text-lg text-start md:text-center"> 
+         I am a passionate and dedicated Front End Developer with a strong focus on creating dynamic and user-friendly web applications{"."} My expertise lies in using modern technologies and frameworks to build responsive and interactive user interfaces{"."}</p>
       </div>
       <div className="skills-icons container" id="Skill" >
-        <div className="text-white text-center  text-base
-         md:text-2xl" >My skills</div>
+        <div className="textGlow-white text-start  text-2xl
+       w-72 md:w-full mx-auto  mb-6 font-semibold md:text-center md:text-4xl " >My skills</div>
         <div
           className="grid grid-cols-6 gap-3 sm:grid-cols-6  max-w-5xl 
           lg:gap-8 py-8  justify-center items-center  mx-auto 

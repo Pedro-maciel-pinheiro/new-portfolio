@@ -47,12 +47,10 @@ export function SecondProject() {
           >
             <div className="w-full max-w-96 text-center">
               <p>
-                the Phone Shop project! This e-commerce application was created
-                to gain more experience with fetching data from APIs, handling
-                dynamic routes, and creating animations. Additionally,
+              This innovative application was crafted to explore futuristic design principles and push the boundaries of web animations{"."} Leveraging the power of Framer Motion{","} it features a plethora of dynamic animations{"."}
               </p>
             </div>
-            <h1>technologies used in the project:</h1>
+            <h1>technologies used in the project{":"}</h1>
             <div
               className="w-full max-w-96  flex items-center 
             justify-center gap-4 border rounded-xl p-2 bg-white/10"
@@ -71,7 +69,7 @@ export function SecondProject() {
                 </div>
               ))}
             </div>
-            <div className="flex gap-2 hover:text-purple-500 transition-colors duration-300">
+            <div className="flex gap-2 textGlow-purple transition-colors duration-300">
               <Link
                 
                 target="blank"

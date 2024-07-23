@@ -13,12 +13,53 @@ main {
 }
 
 body {
-  background-color:  rgb(2 6 23);
+  background-color: rgb(2 6 23);
   scroll-behavior: smooth;
   scroll-margin: 12rem;
 }
 
+.textGlow-purple {
+  background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #a855f7, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 
+  animation: revealpurple 1500ms ease-in-out forwards 200ms,
+    glowpurple 1500ms linear infinite 1200ms;
+}
+
+@keyframes revealpurple {
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glowpurple {
+  40% {
+    text-shadow: 0 0 8px #a855f7;
+  }
+}
+
+.textGlow-white {
+  background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #fdfdfd, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  animation: revealwhite 1500ms ease-in-out forwards 200ms,
+    glowwhite 1500ms linear infinite 1200ms;
+}
+@keyframes revealwhite {
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glowwhite {
+  40% {
+    text-shadow: 0 0 8px #ffffff;
+  }
+}
 
 @layer base {
   :root {
@@ -123,23 +164,19 @@ body {
   width: 4px;
 }
 
-
-
 .pic {
   border-radius: 50%;
 }
 
-
-
 .animated-image {
   animation: scaleIn 2s infinite;
-  
+
   animation-delay: 0.4s;
 }
 
 @keyframes scaleIn {
- 
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -147,7 +184,7 @@ body {
   }
 }
 
-.typetext{
+.typetext {
   font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -155,16 +192,16 @@ body {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: 
-     typing 5s ,
-     cursor .5s step-end infinite alternate
-  ;
+  animation: typing 5s, cursor 0.5s step-end infinite alternate;
 }
 
-@keyframes cursor{
-  50%{border-color: transparent;}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
 }
 @keyframes typing {
-   from{width: 0;}
+  from {
+    width: 0;
+  }
 }
-

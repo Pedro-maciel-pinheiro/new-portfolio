@@ -47,9 +47,7 @@ export function ThirdProject() {
           >
             <div className="w-full max-w-96 text-center">
               <p>
-                the Phone Shop project! This e-commerce application was created
-                to gain more experience with fetching data from APIs, handling
-                dynamic routes, and creating animations. Additionally,
+              The iPhone 15 Pro  this application was crafted to explore modern design principles and push the boundaries of web animations{"."}
               </p>
             </div>
             <h1>technologies used in the project:</h1>
@@ -71,9 +69,9 @@ export function ThirdProject() {
                 </div>
               ))}
             </div>
-            <div className="flex gap-2 hover:text-purple-500 transition-colors duration-300">
+            <div className="flex gap-2 textGlow-purple transition-colors duration-300 ">
               <Link
-                
+                 className="underline"
                 target="blank"
                 href={
                   "https://github.com/Pedro-maciel-pinheiro/Phone-Shop/tree/main/src/app/iphone-15-pro"
