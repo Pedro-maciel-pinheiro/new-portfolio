@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInViewHook } from "@/hooks/inView";
-import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
+import { fadeIn, slideInFromLeft, slideInFromRight } from "@/utils/motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,7 +20,7 @@ export function SecondProject() {
         className="flex flex-col w-full h-full max-w-6xl mx-auto relative z-30  px-4 md:px-0"
       >
         <motion.div
-          variants={slideInFromRight(1.2)}
+          variants={fadeIn(0.5)}
           className="w-full 
           h-full flex flex-col md:flex-row border rounded-xl"
         >

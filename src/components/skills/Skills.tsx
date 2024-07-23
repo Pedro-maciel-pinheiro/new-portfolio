@@ -15,7 +15,7 @@ const Skills = () => {
       animate={inView ? "visible" : "hidden"}
       className="flex flex-col  justify-center items-center  "
     >
-      <motion.div variants={fadeIn(1.5)} className="text-white text-xl w-72 md:w-full ">
+      <motion.div variants={fadeIn(1.5)} className="text-white text-xl w-72 md:w-full mt-16 md:mt-2 ">
         <div
           className="text-start text-2xl md:text-center md:text-4xl 
          mt-40 md:mt-56 mb-4 textGlow-white font-semibold"
