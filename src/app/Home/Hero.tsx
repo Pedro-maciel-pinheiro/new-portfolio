@@ -15,7 +15,7 @@ export function Hero() {
              gap-6 sm:gap-2  mx-auto
              "
           >
-            <div className="mt-36 md:mt-0">
+            <div className="mt-16 md:mt-0">
               <p className="text-white text-3xl font-semibold">
                 Welcome To My Space
               </p>
