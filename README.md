@@ -3,6 +3,7 @@ Welcome to my portfolio repository!
 
 About Me
 I am a passionate and dedicated Front End Developer with a strong focus on creating dynamic and user-friendly web applications. 
+My expertise lies in using modern technologies and frameworks to build responsive and interactive user interfaces.
 
 Skills and Technologies 
 
