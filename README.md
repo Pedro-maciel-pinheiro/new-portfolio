@@ -33,6 +33,6 @@ Contact
 Feel free to reach out to me via email or through my social media channels.
 
 Email: shionlk98@gmail.com
-LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/jpmp1998/)
+LinkedIn: (https://www.linkedin.com/in/jpmp1998/)
 phone: +55 61 9851-6239
 Thank you for visiting my portfolio repository!
